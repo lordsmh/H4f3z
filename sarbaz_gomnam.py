@@ -124,10 +124,10 @@ def check_cors_misconfiguration(url):
     pass
 
 # Function to check for Insecure Direct Object References (IDOR) vulnerability
+   
 def check_idor(url):
-    # Send a sample IDOR payload and check the response
+     # Send a sample IDOR payload and check the response
     payload = "user_id=1"
-   def check_idor(url):
     # Send a sample request with an ID to check if it's possible to access another user's data
     user_id = 1  # Sample user ID
     injected_url = f"{url}?user_id={user_id}"  # Injected URL with user ID parameter
