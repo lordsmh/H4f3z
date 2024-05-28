@@ -1,29 +1,121 @@
-# Sarbaz Gomnam
+### README.md for GitHub
 
-یک ابزار تست نفوذ و امنیت وب است که طراحی شده است تا آسیب‌پذیری‌های شایع در وب‌سایت‌ها را تشخیص دهد و از جمله SQL Injection، XSS، Directory Traversal، و سایر آسیب‌پذیری‌های مهم امنیتی را بررسی کند.
+Here's a comprehensive README file suitable for a GitHub repository, detailing the Sarbaz Gomnam tool, its features, usage, and setup instructions:
 
-## نقاط قوت
+```markdown
+# Sarbaz Gomnam: Web Vulnerability Scanner
 
-- قابلیت تشخیص چندین آسیب‌پذیری امنیتی اصلی مانند SQL Injection، XSS، و Directory Traversal.
-- طراحی ساده و قابل استفاده برای تست‌های نفوذ مبتدی و حرفه‌ای.
-- امکان افزودن آسیب‌پذیری‌های جدید و توسعه پذیری بالا.
-- قابلیت تنظیم سریع و استفاده از پارامترهای سفارشی برای هر آسیب‌پذیری.
+Sarbaz Gomnam is a web penetration testing and security tool designed to detect common vulnerabilities in websites. This tool can identify several critical security flaws, making it a valuable resource for both novice and professional penetration testers.
 
-## پیش نیازها
+## Features
+
+- Detects multiple major security vulnerabilities including:
+  - SQL Injection
+  - Cross-Site Scripting (XSS)
+  - Directory Traversal
+  - Command Injection
+  - Cross-Site Request Forgery (CSRF)
+  - Remote Code Execution (RCE)
+  - Sensitive Data Exposure
+  - XML External Entity (XXE)
+  - Server-Side Request Forgery (SSRF)
+  - Remote File Inclusion (RFI)
+  - Local File Inclusion (LFI)
+  - Cross-Site Script Inclusion (XSSI)
+  - Blind SQL Injection
+  - CORS Misconfiguration
+  - Insecure Direct Object References (IDOR)
+  - Insecure Authentication
+  - Server-Side Template Injection (SSTI)
+
+## Prerequisites
 
 - Python 3.x
-- نصب کتابخانه‌های Python به وسیله دستور `pip install -r requirements.txt`
+- Install the required Python libraries using the command `pip install -r requirements.txt`
 
-## روش استفاده
+## Installation
 
-1. دانلود و نصب Python 3.x اگر نصب ندارید.
-2. دانلود کد ابزار Sarbaz Gomnam از مخزن GitHub.
-3. نصب پیش نیازهای ابزار با اجرای دستور `pip install -r requirements.txt`.
-4. اجرای ابزار با دستور `python sarbaz_gomnam.py <آدرس_URL>` و جایگزینی `<آدرس_URL>` با URL وب‌سایت مورد نظر برای بررسی.
+1. **Clone the repository:**
 
-برای مثال:
+    ```bash
+    git clone https://github.com/yourusername/sarbaz_gomnam.git
+    cd sarbaz_gomnam
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To use Sarbaz Gomnam, run the following command, replacing `<URL>` with the target website URL:
 
 ```bash
-python sarbaz_gomnam.py http://example.com
+python sarbaz_gomnam.py <URL>
+```
+
+### Switches
+
+- `-a`, `--auto`: Automatically scan for all vulnerabilities.
+- `-h`, `--help`: Display help information.
+
+### Examples
+
+#### Automatic Scan
+
+To automatically scan for all vulnerabilities:
+
+```bash
+python sarbaz_gomnam.py -a http://example.com
+```
+
+#### Display Help
+
+To display help information:
+
+```bash
+python sarbaz_gomnam.py -h
+```
+
+## Detectable Vulnerabilities
+
+1. **SQL Injection**
+2. **Cross-Site Scripting (XSS)**
+3. **Directory Traversal**
+4. **Command Injection**
+5. **Cross-Site Request Forgery (CSRF)**
+6. **Remote Code Execution (RCE)**
+7. **Sensitive Data Exposure**
+8. **XML External Entity (XXE)**
+9. **Server-Side Request Forgery (SSRF)**
+10. **Remote File Inclusion (RFI)**
+11. **Local File Inclusion (LFI)**
+12. **Cross-Site Script Inclusion (XSSI)**
+13. **Blind SQL Injection**
+14. **CORS Misconfiguration**
+15. **Insecure Direct Object References (IDOR)**
+16. **Insecure Authentication**
+17. **Server-Side Template Injection (SSTI)**
+
+## Help
+
+For more detailed help and usage instructions, run:
+
+```bash
+python sarbaz_gomnam.py -h
+```
+
+## Author
+
+Tool developed by `lord_smh`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+This README file provides a comprehensive overview of the Sarbaz Gomnam tool, including installation instructions, usage examples, and details on the detectable vulnerabilities. This should be suitable for your GitHub repository to help users understand and utilize the tool effectively.
 
 
