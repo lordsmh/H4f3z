@@ -1,8 +1,3 @@
-# sarbaz_gomnam
-فایل README برای توضیح ابزار "Sarbaz Gomnam" به شکل زیر می‌تواند باشد:
-
----
-
 # Sarbaz Gomnam
 
 Sarbaz Gomnam یک ابزار تست نفوذ و امنیت وب است که طراحی شده است تا آسیب‌پذیری‌های شایع در وب‌سایت‌ها را تشخیص دهد و از جمله SQL Injection، XSS، Directory Traversal، و سایر آسیب‌پذیری‌های مهم امنیتی را بررسی کند.
