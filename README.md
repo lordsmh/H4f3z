@@ -10,23 +10,26 @@ Sarbaz Gomnam is a web penetration testing and security tool designed to detect 
 ## Features
 
 - Detects multiple major security vulnerabilities including:
-  - SQL Injection
-  - Cross-Site Scripting (XSS)
-  - Directory Traversal
-  - Command Injection
-  - Cross-Site Request Forgery (CSRF)
-  - Remote Code Execution (RCE)
-  - Sensitive Data Exposure
-  - XML External Entity (XXE)
-  - Server-Side Request Forgery (SSRF)
-  - Remote File Inclusion (RFI)
-  - Local File Inclusion (LFI)
-  - Cross-Site Script Inclusion (XSSI)
-  - Blind SQL Injection
-  - CORS Misconfiguration
-  - Insecure Direct Object References (IDOR)
-  - Insecure Authentication
-  - Server-Side Template Injection (SSTI)
+
+            ''''some one Not complete yet''''
+
+  - SQL Injection +
+  - Cross-Site Scripting (XSS) +
+  - Directory Traversal +
+  - Command Injection -
+  - Cross-Site Request Forgery (CSRF) -
+  - Remote Code Execution (RCE) -
+  - Sensitive Data Exposure - 
+  - XML External Entity (XXE) -
+  - Server-Side Request Forgery (SSRF) -
+  - Remote File Inclusion (RFI) -
+  - Local File Inclusion (LFI) -
+  - Cross-Site Script Inclusion (XSSI) -
+  - Blind SQL Injection -
+  - CORS Misconfiguration -
+  - Insecure Direct Object References (IDOR) +
+  - Insecure Authentication -
+  - Server-Side Template Injection (SSTI) -
 
 ## Prerequisites
 
