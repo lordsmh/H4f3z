@@ -1,6 +1,6 @@
 ### README.md for GitHub
 
-Here's a comprehensive README file suitable for a GitHub repository, detailing the Sarbaz Gomnam tool, its features, usage, and setup instructions:
+ 
 
 ```markdown
 # Sarbaz Gomnam: Web Vulnerability Scanner
