@@ -228,5 +228,3 @@ def main():
 
     scan_website(args.target_url, args.auto)
 
-if __name__ == "__main__":
-    main()
