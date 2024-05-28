@@ -23,7 +23,7 @@ Sarbaz Gomnam یک ابزار تست نفوذ و امنیت وب است که ط�
 
 برای مثال:
 
-
+```bash
 python sarbaz_gomnam.py http://example.com
 
 
