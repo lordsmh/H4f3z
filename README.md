@@ -114,8 +114,4 @@ Tool developed by `lord_smh`.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README file provides a comprehensive overview of the Sarbaz Gomnam tool, including installation instructions, usage examples, and details on the detectable vulnerabilities. This should be suitable for your GitHub repository to help users understand and utilize the tool effectively.
-
 
