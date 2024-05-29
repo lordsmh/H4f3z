@@ -1,8 +1,7 @@
-### README.md for GitHub
+
 
  
 
-```markdown
 # Sarbaz Gomnam: Web Vulnerability Scanner
 
 Sarbaz Gomnam is a web penetration testing and security tool designed to detect common vulnerabilities in websites. This tool can identify several critical security flaws, making it a valuable resource for both novice and professional penetration testers.
