@@ -40,7 +40,7 @@ Sarbaz Gomnam is a web penetration testing and security tool designed to detect 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/sarbaz_gomnam.git
+    git clone https://github.com/lordsmh/sarbaz_gomnam.git
     cd sarbaz_gomnam
     ```
 
