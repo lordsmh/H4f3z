@@ -55,7 +55,7 @@ Hafez is a web penetration testing and security tool designed to detect common v
 To use Hafez, run the following command, replacing `<URL>` with the target website URL:
 
 ```bash
-python HAfez.py <URL>
+python Hafez.py <URL>
 ```
 
 ### Switches
