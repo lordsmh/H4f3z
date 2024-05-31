@@ -2,9 +2,9 @@
 
  
 
-# Sarbaz Gomnam: Web Vulnerability Scanner
+# Hafez: Web Vulnerability Scanner
 
-Sarbaz Gomnam is a web penetration testing and security tool designed to detect common vulnerabilities in websites. This tool can identify several critical security flaws, making it a valuable resource for both novice and professional penetration testers.
+Hafez is a web penetration testing and security tool designed to detect common vulnerabilities in websites. This tool can identify several critical security flaws, making it a valuable resource for both novice and professional penetration testers.
 
 ## Features
 
@@ -40,8 +40,8 @@ Sarbaz Gomnam is a web penetration testing and security tool designed to detect 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/lordsmh/sarbaz_gomnam.git
-    cd sarbaz_gomnam
+    git clone https://github.com/lordsmh/Hafez.git
+    cd Hafez
     ```
 
 2. **Install dependencies:**
@@ -52,10 +52,10 @@ Sarbaz Gomnam is a web penetration testing and security tool designed to detect 
 
 ## Usage
 
-To use Sarbaz Gomnam, run the following command, replacing `<URL>` with the target website URL:
+To use Hafez, run the following command, replacing `<URL>` with the target website URL:
 
 ```bash
-python sarbaz_gomnam.py <URL>
+python HAfez.py <URL>
 ```
 
 ### Switches
@@ -70,7 +70,7 @@ python sarbaz_gomnam.py <URL>
 To automatically scan for all vulnerabilities:
 
 ```bash
-python sarbaz_gomnam.py -a http://example.com
+python Hafez.py -a http://example.com
 ```
 
 #### Display Help
@@ -78,7 +78,7 @@ python sarbaz_gomnam.py -a http://example.com
 To display help information:
 
 ```bash
-python sarbaz_gomnam.py -h
+python Hafez.py -h
 ```
 
 ## Detectable Vulnerabilities
@@ -106,7 +106,7 @@ python sarbaz_gomnam.py -h
 For more detailed help and usage instructions, run:
 
 ```bash
-python sarbaz_gomnam.py -h
+python Hafez.py -h
 ```
 
 ## Author
