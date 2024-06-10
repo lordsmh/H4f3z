@@ -2,9 +2,9 @@
 
  
 
-# Hafez: Web Vulnerability Scanner
+# H4f3z: Web Vulnerability Scanner
 
-Hafez is a web penetration testing and security tool designed to detect common vulnerabilities in websites. This tool can identify several critical security flaws, making it a valuable resource for both novice and professional penetration testers.
+H4fez is a web penetration testing and security tool designed to detect common vulnerabilities in websites. This tool can identify several critical security flaws, making it a valuable resource for both novice and professional penetration testers.
 
 ## Features
 
@@ -40,8 +40,8 @@ Hafez is a web penetration testing and security tool designed to detect common v
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/lordsmh/Hafez.git
-    cd Hafez
+    git clone https://github.com/lordsmh/H4f3z.git
+    cd H4f3z
     ```
 
 2. **Install dependencies:**
@@ -52,10 +52,10 @@ Hafez is a web penetration testing and security tool designed to detect common v
 
 ## Usage
 
-To use Hafez, run the following command, replacing `<URL>` with the target website URL:
+To use H4f3z, run the following command, replacing `<URL>` with the target website URL:
 
 ```bash
-python Hafez.py <URL>
+python H4f3z.py <URL>
 ```
 
 ### Switches
@@ -70,7 +70,7 @@ python Hafez.py <URL>
 To automatically scan for all vulnerabilities:
 
 ```bash
-python Hafez.py -a http://example.com
+python H4f3z.py -a http://example.com
 ```
 
 #### Display Help
@@ -78,7 +78,7 @@ python Hafez.py -a http://example.com
 To display help information:
 
 ```bash
-python Hafez.py -h
+python H4f3z.py -h
 ```
 
 ## Detectable Vulnerabilities
@@ -106,7 +106,7 @@ python Hafez.py -h
 For more detailed help and usage instructions, run:
 
 ```bash
-python Hafez.py -h
+python H4f3z.py -h
 ```
 
 ## Author
