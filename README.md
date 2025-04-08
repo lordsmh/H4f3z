@@ -15,7 +15,7 @@ H4fez is a web penetration testing and security tool designed to detect common v
   - SQL Injection +
   - Cross-Site Scripting (XSS) +
   - Directory Traversal +
-  - Command Injection -
+  - Command Injection +
   - Cross-Site Request Forgery (CSRF) -
   - Remote Code Execution (RCE) -
   - Sensitive Data Exposure - 
